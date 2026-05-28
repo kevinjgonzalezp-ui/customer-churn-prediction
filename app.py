@@ -10,6 +10,17 @@ st.write("""
 El objetivo de este proyecto es predecir qué clientes tienen mayor riesgo de abandonar la compañía utilizando técnicas de Machine Learning.
 """)
 
+st.header("Limpieza y Preparación de Datos")
+
+st.write("""
+- Se limpiaron valores nulos y duplicados.
+- Se transformaron variables categóricas a formato numérico.
+- Se aplicó One-Hot Encoding.
+- Se utilizó StandardScaler para el escalado de variables.
+- Se aplicó SMOTE para balancear las clases.
+""")
+
+
 st.header("Modelos Utilizados")
 
 st.write("""

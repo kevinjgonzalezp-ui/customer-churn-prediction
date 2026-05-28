@@ -194,7 +194,16 @@ customer-churn-prediction/
 
 - train_model(X_train, y_train)
   - Entrena el modelo Logistic Regression.
-  
+
+  # 🚀 Streamlit App
+
+El proyecto incluye una aplicación interactiva desarrollada con Streamlit para presentar los resultados del modelo de Machine Learning.
+
+Para ejecutarla localmente:
+
+```bash
+streamlit run app.py
+```
 # 👨‍💻 Autor
 
 Kevin Gonzalez

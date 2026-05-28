@@ -161,6 +161,40 @@ Posibles mejoras futuras del proyecto:
 - Utilizar datasets más grandes
 - Realizar visualizaciones EDA más avanzadas
 
+# 📂 Estructura del Proyecto
+
+customer-churn-prediction/
+│
+├── data/
+├── notebooks/
+├── src/
+│   ├── preprocessing.py
+│   └── modeling.py
+├── app.py
+└── README.md
+
+# ⚙️ Funciones Principales
+
+## preprocessing.py
+- clean_data(df)
+  - Limpia valores nulos y transforma variables.
+
+- encode_data(df)
+  - Convierte variables categóricas a formato numérico.
+
+## modeling.py
+- split_data(X, y)
+  - Divide los datos en entrenamiento y prueba.
+
+- scale_data(X_train, X_test)
+  - Aplica StandardScaler.
+
+- apply_smote(X_train, y_train)
+  - Balancea las clases utilizando SMOTE.
+
+- train_model(X_train, y_train)
+  - Entrena el modelo Logistic Regression.
+  
 # 👨‍💻 Autor
 
 Kevin Gonzalez
